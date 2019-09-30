@@ -1,0 +1,65 @@
+p {
+	font-family: century-gothic, sans-serif;
+}
+
+.hero {
+	padding: 5%;
+	background-image:url(../img/0000header.jpg);
+	  background-repeat: no-repeat;
+	  /*background-attachment: fixed;*/
+	  background-position: top;
+}
+
+.hero h1 {
+	text-align: center;
+	font-family: charlemagne-std, serif; 
+}
+
+.paragraph {
+	padding: 4rem;
+}
+
+.timelineitem {
+	height: 100%;
+	padding: 10%;
+	color: white;
+}
+
+
+.timelineitem h1 {
+	font-family: charlemagne-std, serif; 
+}
+
+.timelineitem h3 {
+	font-family: quatro, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+}
+
+#ToyStory {
+	background-image:url(../img/01toystory-01.jpg);
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-position: center;
+}
+
+#BugsLife {
+	background-image:url(../img/02bugslife.jpg);
+	background-size: 100%;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-position: center;
+	  text-align: right;
+
+}
+
+#ToyStory2 {
+	background-image:url(../img/03toystory2-01.jpg);
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-position: center;
+	  color: black;
