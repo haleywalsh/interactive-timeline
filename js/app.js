@@ -8,7 +8,8 @@ $('.overlay').hide();
 $('.overlay').append('<button>X</button>');
 
 // open overlay
-$('main a').click(function(){
+$('main a').click(function(e){
+	e.preventDefault();
   $('.overlay').show();
 });
 

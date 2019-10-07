@@ -1,3 +1,193 @@
-#right {
-	text-align: right;
+.timelineitem:nth-child(even){
+    text-align: right;
+}
+
+.timelineitem {
+	padding: 10%;
+	color: white;
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center;
+}
+
+#ToyStory {
+	background-image:url(../img/m01toystory.jpg);
+	
+}
+
+#BugsLife {
+	background-image:url(../img/m02bugslife.jpg);
+	
+}
+
+#ToyStory2 {
+	background-image:url(../img/m03toystory2.jpg);
+	color: black;
+}
+
+#Monsters {
+	background-image:url(../img/m04mosters-01.jpg);
+}
+
+#Nemo {
+	background-image:url(../img/m05nemo.jpg);
+}
+
+#Incredibles {
+	
+}
+
+#Cars {
+	
+}
+
+#Rat {
+	
+}
+
+#WallE {
+	
+}
+
+#Up {
+	
+}
+
+#ToyStory3 {
+	
+}
+
+#Cars2 {
+	
+}
+
+#Brave {
+	
+}
+
+#MonstersU {
+	
+}
+
+#InsideOut {
+	
+}
+
+#Dino {
+	
+}
+
+#Dory {
+	
+}
+
+#Cars3 {
+	
+}
+
+#Coco {
+	
+}
+
+#Incredibles2 {
+	
+}
+
+#ToyStory4 {
+	
+}
+
+
+@media screen and (min-width: 64em) {
+
+	#ToyStory {
+	background-image:url(../img/01toystory-01.jpg);
+	background-position: fixed;
+	}
+
+	#BugsLife {
+	background-image:url(../img/02bugslife.jpg);
+	}
+
+	#ToyStory2 {
+	background-image:url(../img/03toystory2-01.jpg);
+	color: black;
+}
+
+	#Monsters {
+	background-image:url(../img/04monsters.jpg);
+		
+	}
+
+	#Nemo {
+	background-image:url(../img/05nemo-01.jpg);
+	}
+
+	#Incredibles {
+		
+	}
+
+	#Cars {
+		
+	}
+
+	#Rat {
+		
+	}
+
+	#WallE {
+		
+	}
+
+	#Up {
+		
+	}
+
+	#ToyStory3 {
+		
+	}
+
+	#Cars2 {
+		
+	}
+
+	#Brave {
+		
+	}
+
+	#MonstersU {
+		
+	}
+
+	#InsideOut {
+		
+	}
+
+	#Dino {
+		
+	}
+
+	#Dory {
+		
+	}
+
+	#Cars3 {
+		
+	}
+
+	#Coco {
+		
+	}
+
+	#Incredibles2 {
+		
+	}
+
+	#ToyStory4 {
+		
+	}
+
 }

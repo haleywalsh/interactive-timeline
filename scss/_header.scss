@@ -6,14 +6,16 @@ main {
   display: flex;
   position: fixed;
   right: 0;
+
 }
   a {
-    padding: 5%;
+    color: #9CAFD1;
+    padding: 5px;
     text-decoration: none;
     font-family: quatro, sans-serif;
-	font-style: normal;
-	font-weight: 800;
-    font-size: 2rem;
+  	font-style: normal;
+  	font-weight: 800;
+    font-size: 1rem;
     font-weight: 700;
     color: #212121;
     border-bottom: 1rem solid transparent;
@@ -24,6 +26,7 @@ main {
 
 li a {
 	color: white;
+  margin: auto;
 }
 
 .overlay {
@@ -33,6 +36,8 @@ li a {
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,.8);
+  text-align: center;
+  padding: 5%;
 }
   button {
     background-color: transparent;
@@ -65,4 +70,26 @@ li a {
 
 .paragraph {
 	padding: 4rem;
+}
+
+@media screen and (min-width: 64em) {
+  main {
+    display: flex;
+    position: fixed;
+    right: 0;
+  }
+    a {
+      padding: 25px;
+      text-decoration: none;
+      font-family: quatro, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #212121;
+      border-bottom: 1rem solid transparent;
+      &:hover {
+        border-color: #333;
+      }
+  }
 }
