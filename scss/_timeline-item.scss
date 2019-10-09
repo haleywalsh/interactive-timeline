@@ -7,10 +7,10 @@
 	color: white;
 	background-color: gray;
 	background-repeat: no-repeat;
-	background-size: 100%;
 	background-attachment: fixed;
+	background-size: 100%;
 	height: 100vh;
-	background-position: center;
+	background-position: top;
 }
 
 #ToyStory {
@@ -37,39 +37,44 @@
 }
 
 #Incredibles {
-	
+	background-image:url(../img/m06incred.jpg);
 }
 
 #Cars {
-	
+	background-image:url(../img/m07cars.jpg);
 }
 
 #Rat {
-	
+	background-image:url(../img/m08rat.jpg);
 }
 
 #WallE {
-	
+	background-image:url(../img/m09walle.jpg);
+	background-position: bottom;
 }
 
 #Up {
-	
+	background-image:url(../img/10up.jpg);
+	background-size: 250%;
 }
 
 #ToyStory3 {
-	
+	background-image:url(../img/m11toystory3.jpg);
 }
 
 #Cars2 {
-	
+	background-image:url(../img/m12cars2.jpg);
+	background-position: bottom;
+	color: black;
 }
 
 #Brave {
-	
+	background-image:url(../img/m13brave.jpg);
 }
 
 #MonstersU {
-	
+	background-image:url(../img/m14monstersu.jpg);
+	color: black;
 }
 
 #InsideOut {
@@ -103,6 +108,10 @@
 
 @media screen and (min-width: 64em) {
 
+	/*.timelineitem {
+		background-size: 100%;
+	}*/
+
 	#ToyStory {
 	background-image:url(../img/01toystory-01.jpg);
 	background-position: fixed;
@@ -127,39 +136,41 @@
 	}
 
 	#Incredibles {
-		
+	background-image:url(../img/06incred.jpg);
 	}
 
 	#Cars {
-		
+	background-image:url(../img/07cars.jpg);	
 	}
 
 	#Rat {
-		
+	background-image:url(../img/08rat.jpg);	
 	}
 
 	#WallE {
-		
+	background-image:url(../img/09walle.jpg);
+	background-position: bottom;	
 	}
 
 	#Up {
-		
+	background-size: 100%;
 	}
 
 	#ToyStory3 {
-		
+		background-image:url(../img/11toystory3.jpg);
 	}
 
 	#Cars2 {
-		
+		background-image:url(../img/12cars2.jpg);
 	}
 
 	#Brave {
-		
+	background-image:url(../img/13brave.jpg);
+}
 	}
 
 	#MonstersU {
-		
+	background-image:url(../img/14monstersu.jpg);	
 	}
 
 	#InsideOut {
@@ -190,4 +201,3 @@
 		
 	}
 
-}
