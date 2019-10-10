@@ -78,15 +78,15 @@
 }
 
 #InsideOut {
-	
+	background-image:url(../img/m15insideout.jpg);
 }
 
 #Dino {
-	
+	background-image:url(../img/m16dino.jpg);	
 }
 
 #Dory {
-	
+	background-image:url(../img/m17dory.jpg);		
 }
 
 #Cars3 {
@@ -94,15 +94,17 @@
 }
 
 #Coco {
-	
+background-image:url(../img/m19coco.jpg);		
 }
 
 #Incredibles2 {
-	
+background-image:url(../img/m20incred2.jpg);		
 }
 
 #ToyStory4 {
-	
+background-image:url(../img/m21toystory4.jpg);	
+color: black;
+background-position: bottom;	
 }
 
 
@@ -174,15 +176,20 @@
 	}
 
 	#InsideOut {
-		
+	background-image:url(../img/15insideout.jpg);
 	}
 
 	#Dino {
-		
+	background-image:url(../img/16dino.jpg);	
 	}
 
 	#Dory {
-		
+	background-image:url(../img/17dory.jpg);
+	background-position: bottom;	
+	}
+
+	#Dory p {
+		font-size: 0.9rem;
 	}
 
 	#Cars3 {
@@ -190,14 +197,15 @@
 	}
 
 	#Coco {
-		
+	background-image:url(../img/19coco.jpg);	
 	}
 
 	#Incredibles2 {
-		
+	background-image:url(../img/20incred2-01.jpg);	
 	}
 
 	#ToyStory4 {
-		
+	background-image:url(../img/21toystory4-01.jpg);	
+
 	}
 
