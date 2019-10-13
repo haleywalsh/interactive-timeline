@@ -16,10 +16,17 @@ main {
   	font-weight: 800;
     font-size: 1rem;
     font-weight: 700;
-    color: gray;
+    color: transparent;
  /*   background-color: rgba(211,211,211,0.1);*/
  
-    /*background-image:url(../img/ball.jpg);*/
+  }
+
+  main a {
+    padding: 10%;
+    margin: 5%;
+    background-image:url(../img/ball2.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 li a {
@@ -70,10 +77,25 @@ li a {
 	padding: 4rem;
 }
 
+.box {
+  background-color: #9BB0CF;
+  height: 5px;
+  margin-bottom: 20px;
+  width: 75%;
+  margin-top: 5%;
+}
+
 @media screen and (min-width: 64em) {
-  main 
-    a {
+  main a {
       padding: 15%;
       font-size: 2rem;
+      background-image:url(../img/ball.png);
   }
+
+  .box {
+    margin: auto;
+  }
+
+
 }
+

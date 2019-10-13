@@ -2,6 +2,7 @@
     text-align: right;
 }
 
+
 .timelineitem {
 	padding: 10%;
 	color: white;
@@ -89,8 +90,12 @@
 	background-image:url(../img/m17dory.jpg);		
 }
 
+#Dory p {
+	font-size: 1rem;
+}
+
 #Cars3 {
-	
+background-image:url(../img/m18cars3.jpg);	
 }
 
 #Coco {
@@ -98,11 +103,12 @@ background-image:url(../img/m19coco.jpg);
 }
 
 #Incredibles2 {
-background-image:url(../img/m20incred2.jpg);		
+background-image:url(../img/m20incred2.jpg);
+background-position: bottom;		
 }
 
 #ToyStory4 {
-background-image:url(../img/m21toystory4.jpg);	
+background-image:url(../img/m21toystory4-01.jpg);	
 color: black;
 background-position: bottom;	
 }
@@ -110,9 +116,14 @@ background-position: bottom;
 
 @media screen and (min-width: 64em) {
 
-	/*.timelineitem {
+	.timelineitem {
 		background-size: 100%;
-	}*/
+	}
+
+	.timelineitem h1 {
+	 font-size: 3.5rem;
+	 line-height: 1;
+}
 
 	#ToyStory {
 	background-image:url(../img/01toystory-01.jpg);
@@ -168,7 +179,6 @@ background-position: bottom;
 
 	#Brave {
 	background-image:url(../img/13brave.jpg);
-}
 	}
 
 	#MonstersU {
@@ -177,6 +187,7 @@ background-position: bottom;
 
 	#InsideOut {
 	background-image:url(../img/15insideout.jpg);
+	background-position: bottom;
 	}
 
 	#Dino {
@@ -193,7 +204,7 @@ background-position: bottom;
 	}
 
 	#Cars3 {
-		
+	background-image:url(../img/18cars3-01.jpg);
 	}
 
 	#Coco {
@@ -202,6 +213,11 @@ background-position: bottom;
 
 	#Incredibles2 {
 	background-image:url(../img/20incred2-01.jpg);	
+	background-position: bottom;
+	}
+
+	#Incredibles2 h1 {
+		font-size: 3rem;
 	}
 
 	#ToyStory4 {
@@ -209,3 +225,4 @@ background-position: bottom;
 
 	}
 
+}
